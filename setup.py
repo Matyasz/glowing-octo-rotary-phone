@@ -8,7 +8,7 @@ if __name__ == "__main__":
     src_dir = base_dir / 'src'
 
     about = {}
-    with (src_dir / "glowing-octo-rotary-phone" / "__about__.py").open() as f:
+    with (src_dir / "glowing_octo_rotary_phone" / "__about__.py").open() as f:
         exec(f.read(), about)
 
     # with (base_dir / "README.rst").open() as f:
